@@ -1,0 +1,41 @@
+.movie-item {
+    padding: 20px;
+    background-color: #FFEEDB;
+    display: flex;
+    align-items: center;
+}
+
+.movie-item__poster {
+    height: 150px;
+    width: 180px;
+    background-size: cover;
+    margin-right: 21px;
+}
+
+.movie-item__title {
+    font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 14px;
+}
+
+.movie-item__add-button,.d-block {
+    border: none;
+    background-color: #496DDB;
+    padding: 10px 15px;
+    color: #FFEEDB;
+    font-size: 14px;
+    transition: all 0.2s linear;
+}
+
+.movie-item__add-button:hover, .d-block:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all 0.2s linear;
+}
+
+.d-block {
+    width: 100px;
+    text-decoration: none;
+    color: #FFEEDB;
+    text-align: center;
+}

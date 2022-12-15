@@ -1,0 +1,32 @@
+.main-page__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-page__main-section {
+    padding-left: 40px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.main-page__search-box {
+    margin-bottom: 35px;
+}
+
+.main-page__favorites {
+    padding: 20px;
+    width: 35%;   
+}
+
+@media (max-width: 650px) {
+    .main-page__content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-page__main-section {
+        width: 90%;
+    }
+    .main-page__favorites {
+        width: 90%;   
+    }
+}
